@@ -7,6 +7,7 @@ import {
   downIcon,
   graphIcon,
   rightIcon,
+  fireIcon,
 } from "../../../../../assets/images";
 import CategoryTabs from "../../../layout/header/category-tabs/category-tab";
 import CompetitionCard from "../competition/competition-card";
@@ -115,8 +116,8 @@ const Highlights = () => {
       <div className="highlights-t">
         <div className="highlight-text-container space-between padding">
           <div className="highlight-text left">
-            <div className="red"></div>
-            <div className="sub-heading highlight-text-sub">Highlights</div>
+            <img src={fireIcon} alt="icon" style={{marginRight: "7px"}}/>
+            <div className="sub-heading highlight-text-sub">Live</div>
           </div>
           <div className="icon-text-highlight-container left">
             <div

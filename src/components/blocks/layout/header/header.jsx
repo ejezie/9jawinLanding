@@ -4,33 +4,11 @@ import Container from "../container/container";
 import HamburgerMenu from "../../../premitives/hamburger/hamburger";
 import SearchInput from "../../../premitives/search-input/search-input";
 import HeaderButton from "../../../premitives/header-button/header-button";
-import {
-  logo,
-  himage,
-  downIcon,
-  soccerIcon,
-  tenisIcon,
-  trophyIcon,
-  calendarIcon,
-  stopwatchIcon,
-  pokerIcon,
-} from "../../../../assets/images";
+import { logo, himage, downIcon } from "../../../../assets/images";
 import TabsHeader from "./tabs-header/tabs-header";
 import CategoryHeader from "./category-tabs/category-tab";
 
 const menuList = [
-  { name: "Sports", icon: soccerIcon },
-  { name: "Casino", icon: pokerIcon },
-  { name: "Live", icon: stopwatchIcon },
-  { name: "Today", icon: calendarIcon },
-  { name: "Tennis", icon: trophyIcon },
-  { name: "Jackpot", icon: tenisIcon },
-  { name: "Livescore", icon: soccerIcon },
-  { name: "Results", icon: soccerIcon },
-  { name: "Promotion", icon: soccerIcon },
-];
-
-const menuLists = [
   { name: "Home", icon: null },
   { name: "Football", icon: null },
   { name: "Basketball", icon: null },
@@ -68,16 +46,10 @@ const Header = () => {
         </Container>
       </div>
       <img src={himage} alt="heroImage" className="himage" />
-      <div className="bg-h">
-        <Container>
-          <TabsHeader menuList={menuList} />
-        </Container>
-      </div>
-      <div className="bg-cat">
-        <Container>
-          <CategoryHeader menuList={menuLists} />
-        </Container>
-      </div>
+      <TabsHeader />
+      <Container>
+        <CategoryHeader menuList={menuList} />
+      </Container>
     </>
   );
 };

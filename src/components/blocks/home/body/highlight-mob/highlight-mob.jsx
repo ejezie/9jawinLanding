@@ -16,6 +16,7 @@ import { getAllByRole } from "@testing-library/react";
 
 const HighlightMob = () => {
   return (
+    <>
     <div className="highlight-mob">
       <Container>
         <div className="comp-card-wrap-h left">
@@ -393,6 +394,7 @@ const HighlightMob = () => {
         </Container>
       </div>
     </div>
+    </>
   );
 };
 
