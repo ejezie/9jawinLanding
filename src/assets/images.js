@@ -19,5 +19,7 @@ export const europaIcon = `${IMAGE_PATH}/europa.png`
 export const wingIcon = `${IMAGE_PATH}/wing.png`
 export const premIcon = `${IMAGE_PATH}/prem.png`
 export const fireIcon = `${IMAGE_PATH}/fire.svg`
+export const printwIcon = `${IMAGE_PATH}/printw.svg`
 export const printIcon = `${IMAGE_PATH}/foundation_print.svg`
+export const refreshwIcon = `${IMAGE_PATH}/refreshw.svg`
 export const refreshIcon = `${IMAGE_PATH}/material-symbols_refresh-rounded.svg`

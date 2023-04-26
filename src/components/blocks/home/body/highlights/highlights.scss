@@ -61,7 +61,8 @@ $white: white;
     .date-sub-heading {
       color: $black;
       font-size: 16px;
-      margin-right: 179px;
+      margin-right: 169px;
+      white-space: nowrap;
     }
     .value-wrap {
       margin-right: 32px;
@@ -71,6 +72,7 @@ $white: white;
         background-color: $color;
         margin-right: 6px;
         color: $black;
+        border-radius: 3px;
         cursor: pointer;
       }
       .value-red {
@@ -152,178 +154,186 @@ $white: white;
   }
 }
 
+
+
 .highlights-t {
-    background-color: $blue;
-    border-radius: 10px;
-    padding: 23px 0px;
-    margin-top: 36px;
-    margin-bottom: 20px;
+  background-color: $blue;
+  border-radius: 10px;
+  padding: 23px 0px;
+  margin-top: 36px;
+  margin-bottom: 20px;
 
-    @media (max-width: 991px) {
-        display: none;
+  @media (max-width: 991px) {
+    display: none;
+  }
+
+  .highlight-text-container {
+    padding-top: 23px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ececec;
+
+    .highlight-text {
+      align-items: center;
+      .red {
+        width: 14px;
+        height: 14px;
+        background-color: $red;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+
+      .highlight-text-sub {
+        color: white;
+      }
     }
 
-    .highlight-text-container {
-        padding-top: 23px;
-        padding-bottom: 14px;
-        border-bottom: 1px solid #ececec;
+    .icon-text-highlight-container {
+      width: fit-content;
 
-        .highlight-text {
-            align-items: center;
-            .red {
-                width: 14px;
-                height: 14px;
-                background-color: $red;
-                border-radius: 50%;
-                margin-right: 10px;
-            }
-
-            .highlight-text-sub {
-                color: $black;
-            }
+      .icon-text-highlight {
+        span {
+          color: $black;
         }
 
-        .icon-text-highlight-container {
-            width: fit-content;
-
-            .icon-text-highlight {
-                span {
-                    color: $black;
-                }
-
-                img {
-                    margin-right: 15px;
-                }
-            }
+        img {
+          margin-right: 15px;
         }
+      }
+    }
+  }
+
+  .comp-card-wrap {
+    padding: 10px 0px;
+    border-top: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    overflow-x: scroll !important;
+
+    &::-webkit-scrollbar {
+      display: none;
     }
 
-    .comp-card-wrap {
-        padding: 10px 0px;
-        border-top: 1px solid #ececec;
-        border-bottom: 1px solid #ececec;
-        overflow-x: scroll !important;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
 
-        &::-webkit-scrollbar {
-            display: none;
-        }
+  .date {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 20px 0;
+    align-items: center;
+    overflow-x: scroll !important;
 
-        &::-webkit-scrollbar {
-            display: none;
-        }
+    &::-webkit-scrollbar {
+      display: none;
     }
 
-    .date {
-        border-bottom: 1px solid #f2f2f2;
-        padding: 26px 0;
-        align-items: center;
-        overflow-x: scroll !important;
-
-        &::-webkit-scrollbar {
-            display: none;
-        }
-
-        .date-sub-heading {
-            color: $black;
-            font-size: 16px;
-            margin-right: 179px;
-        }
-
-        .value-wrap {
-            margin-right: 32px;
-
-            @mixin value($color) {
-                width: 50px;
-                height: 35px;
-                background-color: $color;
-                margin-right: 6px;
-                color: $black;
-                cursor: pointer;
-            }
-
-            .value-red {
-                @include value($red);
-                color: white;
-                font-weight: 600;
-            }
-
-            .value-white {
-                @include value($white);
-            }
-        }
-
-        .odd-id {
-            flex-direction: column;
-            margin-right: 22px;
-            padding: 5px 10px;
-
-            .fade-comp-text {
-                color: #989191;
-                font-size: 12px;
-                text-align: left;
-                white-space: nowrap;
-            }
-
-            .comp-text {
-                color: $black;
-                overflow: hidden;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                text-align: left;
-            }
-        }
-
-        .odd-text {
-            @extend .odd-id;
-            margin-right: 47px;
-        }
-
-        .arrow-text {
-            align-items: center;
-
-            img {}
-
-            div {
-                color: #989191;
-                margin-right: 13px;
-            }
-        }
+    .date-sub-heading {
+      color: white;
+      font-size: 14px;
+      margin-right: 99px;
+      white-space: nowrap;
     }
 
-    .table-data {
-        @extend .date;
-        padding: 20px 0px;
-        transition: all 0.3s linear;
+    .value-wrap {
+      margin-right: 32px;
+      @mixin value($color) {
+        width: 50px;
+        height: 35px;
+        background-color: $color;
+        margin-right: 6px;
+        color: $black;
+        border-radius: 3px;
         cursor: pointer;
+      }
 
-        &:hover {
-            background-color: #e5e0e0;
-        }
+      .value-red {
+        @include value($red);
+        color: white;
+        font-weight: 600;
+      }
 
-        .graph-icon {
-            padding: 7px;
-            background-color: #d8dde5;
-            border-radius: 4px;
-            margin-right: 24px;
-        }
+      .value-white {
+        @include value($white);
+      }
+
+      .value-blue {
+        @include value($blue);
+      }
     }
 
-    .btn {
-        margin-top: 21px;
-        color: $red;
-        background-color: #fff8f7;
-        padding: 13px 0px;
-        transition: all linear 0.3s;
-        cursor: pointer;
+    .odd-id {
+      flex-direction: column;
+      margin-right: 22px;
+      padding: 5px 10px;
 
-        &:hover {
-            background-color: #f8ddd9;
-        }
+      .fade-comp-text {
+        color: white;
+        font-size: 12px;
+        text-align: left;
+        white-space: nowrap;
+      }
+
+      .comp-text {
+        color: white;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: left;
+      }
     }
 
-    .padding {
-        padding-left: 37px;
-        padding-right: 37px;
-        overflow-x: hidden;
+    .odd-text {
+      @extend .odd-id;
+      margin-right: 47px;
     }
+
+    .arrow-text {
+      align-items: center;
+
+      img {
+      }
+
+      div {
+        color: #989191;
+        margin-right: 13px;
+      }
+    }
+  }
+
+  .table-data {
+    @extend .date;
+    padding: 10px 0px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e5e0e0;
+    }
+
+    .graph-icon {
+      padding: 7px;
+      background-color: #d8dde5;
+      border-radius: 4px;
+      margin-right: 24px;
+    }
+  }
+
+  .btn {
+    margin-top: 67px;
+    color: $red;
+    background-color: #fff8f7;
+    padding: 13px 0px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f8ddd9;
+    }
+  }
+
+  .padding {
+    padding-left: 37px;
+    padding-right: 37px;
+    overflow-x: hidden;
+  }
 }
