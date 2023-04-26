@@ -1,0 +1,24 @@
+@import "../../../base.scss";
+.popular {
+  background-color: $blue;
+  padding-top: 26px;
+  padding-bottom: 50px;
+  @media (max-width: 991px) {
+    display: none;
+  }
+  .popular-layout {
+    align-items: stretch;
+    .popular-image {
+      margin-left: 33px;
+      max-width: 734px;
+      width: 100%;
+      object-fit: cover;
+      @media (max-width: 1200px) {
+        width: 70%;
+      }
+    }
+  }
+
+  .accordion-container {
+  }
+}

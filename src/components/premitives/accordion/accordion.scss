@@ -1,0 +1,9 @@
+.accordion {
+  min-width: 240px;
+  margin-top: 18px;
+  justify-content: space-between !important;
+  cursor: pointer;
+  .accordion-text {
+    color: white;
+  }
+}

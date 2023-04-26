@@ -1,0 +1,21 @@
+@import "../../../../base.scss";
+.tabs-category {
+  padding-top: 23px;
+  align-items: flex-end;
+  @media (max-width: 991px) {
+    padding-top: 7px;
+    padding-bottom: 13px;
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+    width: calc(100% + 7.5px);
+  }
+  .tabs-category-container {
+    overflow-x: scroll !important;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    @media (max-width: 991px) {
+      gap: 2px !important;
+    }
+  }
+}

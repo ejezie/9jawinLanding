@@ -1,0 +1,18 @@
+@import "../../base.scss";
+@mixin button($background-color) {
+  background-color: $background-color;
+  color: white;
+  cursor: pointer;
+  padding: 15px 57px;
+  @media (max-width: 991px) {
+    padding: 9px 18px;
+  }
+}
+
+.header-button-blue {
+  @include button($blue);
+}
+
+.header-button-red {
+  @include button($red);
+}

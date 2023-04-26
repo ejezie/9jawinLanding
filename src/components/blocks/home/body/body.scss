@@ -1,0 +1,21 @@
+@import "../../../base.scss";
+.body {
+  gap: 86px;
+  align-items: flex-start !important;
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+  .h-layout {
+    width: 65%;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+  .b-layout {
+    width: 35%;
+    background-color: antiquewhite;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+  }
+}

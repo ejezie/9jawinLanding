@@ -1,0 +1,35 @@
+@import "../../../base.scss";
+.header-container {
+  width: 100%;
+  background-color: $blue;
+  height: 100px;
+  .header-logo {
+    width: 115px;
+    object-fit: cover;
+    @media (max-width: 767px) {
+      width: 83.72px;
+    }
+  }
+}
+.bg-cat {
+  background-color: white;
+  width: 100%;
+  border-top: white solid 2px;
+  @media (max-width: 991px) {
+    background-color: $blue;
+  }
+}
+.bg-h {
+  background-color: $blue;
+  width: 100%;
+}
+
+.himage {
+  width: 100%;
+  height: 115px;
+  display: none;
+  object-fit: cover;
+  @media (max-width: 991px) {
+    display: block;
+  }
+}

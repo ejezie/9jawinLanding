@@ -1,0 +1,20 @@
+@import "../../../../base.scss";
+.competition{
+    flex-direction: column;
+    border: 1px solid #D9D9D9;
+    width: 120px;
+    margin-right: 16px;
+    padding: 5px 10px;
+    .fade-comp-text{
+        color: #989191;
+        font-size: 12px;
+        text-align: left;
+    }.comp-text{
+        color: $black;
+        width: 100px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+}
