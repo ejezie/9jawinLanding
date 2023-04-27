@@ -1,10 +1,11 @@
 @import "../../../../base.scss";
 .competition{
     flex-direction: column;
-    border: 1px solid #D9D9D9;
+    border: 2px solid #D9D9D9;
     width: 120px;
     margin-right: 16px;
     padding: 5px 10px;
+    border-radius: 4px;
     .fade-comp-text{
         color: #989191;
         font-size: 12px;
@@ -17,4 +18,9 @@
         text-overflow: ellipsis;
         text-align: left;
     }
+}
+
+.competition-g{
+    @extend .competition;
+    border: 2px solid #4CD964;
 }

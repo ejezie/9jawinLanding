@@ -52,7 +52,7 @@ const Highlights = () => {
           <CategoryTabs menuList={menuList} gap="80px" textColor="#000000" />
         </div>
         <div className="left comp-card-wrap padding">
-          <CompetitionCard textOne={"UEFA"} textTwo={"UEFA Champions League"} />
+          <CompetitionCard textOne={"UEFA"} textTwo={"UEFA Champions League"} borderGreen />
           <CompetitionCard textOne={"Friendly"} textTwo={"Int Friendly"} />
           <CompetitionCard textOne={"Europa"} textTwo={"Europa League"} />
           <CompetitionCard textOne={"UEFA"} textTwo={"UEFA Champions League"} />
