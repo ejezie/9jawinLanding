@@ -140,7 +140,7 @@ const Highlights = () => {
             <div className="sub-heading date-sub-heading">
               International Friendly Match
             </div>
-            <div className="value-wrap left">
+            <div className="value-wrap left" style={{marginRight: "40px", alignItems: "center"}}>
               <div
                 style={{ color: "white" }}
                 className="value-blue center text"
@@ -151,7 +151,7 @@ const Highlights = () => {
                 style={{
                   color: "white",
                   flexDirection: "column",
-                  marginTop: "-11px",
+                  marginTop: "-25px",
                 }}
                 className="value-blue center text"
               >
@@ -251,7 +251,7 @@ const Highlights = () => {
             <div className="sub-heading date-sub-heading">
               International Friendly Match
             </div>
-            <div className="value-wrap left">
+            <div className="value-wrap left" style={{marginRight: "40px", alignItems: "center"}}>
               <div
                 style={{ color: "white" }}
                 className="value-blue center text"
@@ -262,7 +262,7 @@ const Highlights = () => {
                 style={{
                   color: "white",
                   flexDirection: "column",
-                  marginTop: "-11px",
+                  marginTop: "-25px",
                 }}
                 className="value-blue center text"
               >
@@ -276,7 +276,7 @@ const Highlights = () => {
                 3
               </div>
             </div>
-            <div className="value-wrap left">
+            <div className="value-wrap left" style={{marginRight: "40px", alignItems: "center"}}>
               <div style={{ color: "white" }} className="value-blue center">
                 1
               </div>
@@ -284,7 +284,7 @@ const Highlights = () => {
                 style={{
                   color: "white",
                   flexDirection: "column",
-                  marginTop: "-11px",
+                  marginTop: "-25px",
                 }}
                 className="value-blue center text"
               >
@@ -362,7 +362,7 @@ const Highlights = () => {
             <div className="sub-heading date-sub-heading">
               International Friendly Match
             </div>
-            <div className="value-wrap left">
+            <div className="value-wrap left" style={{marginRight: "40px", alignItems: "center"}}>
               <div
                 style={{ color: "white" }}
                 className="value-blue center text"
@@ -373,7 +373,7 @@ const Highlights = () => {
                 style={{
                   color: "white",
                   flexDirection: "column",
-                  marginTop: "-11px",
+                  marginTop: "-25px",
                 }}
                 className="value-blue center text"
               >
