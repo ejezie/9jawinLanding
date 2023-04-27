@@ -59,9 +59,9 @@ const HighlightMob = () => {
                 </div>
               </div>
               <div className="club-fixture-odd space-between">
-                <div className="club">
+                <div className="club center" style={{marginBottom: "8px", flexDirection: "column"}}>
                   <img src={madridIcon} alt="icon" />
-                  <div className="text">Real Madrid</div>
+                  <div style={{color: "#989191"}} className="text">Real Madrid</div>
                 </div>
                 <div className="club-odd-text">
                   <div className="text" style={{ color: "#313131" }}>
@@ -74,9 +74,9 @@ const HighlightMob = () => {
                     1X2
                   </div>
                 </div>
-                <div className="club">
+                <div className="club center" style={{marginBottom: "8px", flexDirection: "column"}}>
                   <img src={arsenalIcon} alt="icon" />
-                  <div className="text">Arsenal</div>
+                  <div style={{color: "#989191"}} className="text">Real Madrid</div>
                 </div>
               </div>
               <div className="space-between">
@@ -164,9 +164,9 @@ const HighlightMob = () => {
                 </div>
               </div>
               <div className="club-fixture-odd space-between">
-                <div className="club">
+                <div className="club center" style={{marginBottom: "8px", flexDirection: "column"}}>
                   <img src={madridIcon} alt="icon" />
-                  <div style={{color: ""}} className="text">Real Madrid</div>
+                  <div style={{color: "#989191"}} className="text">Real Madrid</div>
                 </div>
                 <div className="club-odd-text">
                   <div className="text" style={{ color: "#313131" }}>
@@ -179,9 +179,9 @@ const HighlightMob = () => {
                     1X2
                   </div>
                 </div>
-                <div className="club">
+                <div className="club center" style={{marginBottom: "8px", flexDirection: "column"}}>
                   <img src={arsenalIcon} alt="icon" />
-                  <div className="text">Arsenal</div>
+                  <div style={{color: "#989191"}} className="text">Real Madrid</div>
                 </div>
               </div>
               <div className="space-between">
