@@ -3,6 +3,7 @@
   margin-top: 30px;
   flex-direction: column;
   .slip-slide {
+    width: 100%;
     @media (max-width: 1200px) {
       display: flex;
       justify-content: space-between !important;
@@ -144,7 +145,7 @@
       color: #4d4545;
     }
     .win {
-      width: 95%;
+      width: 100%;
       padding-top: 24px;
       padding-bottom: 30px;
       padding-left: 16px;
@@ -152,6 +153,7 @@
         url("../../../../../../public/assets/images/bgtwo.png"), #2a384e;
       border-radius: 0px 0px 60px 0px;
       background-repeat: no-repeat;
+      background-size: cover;
       .win-num {
         text-align: left;
       }
