@@ -2,19 +2,19 @@
 .body {
   gap: 66px;
   align-items: flex-start !important;
-  @media (max-width: 991px) {
+  @media (max-width: 1200px) {
     flex-direction: column;
     gap: 23px;
   }
   .h-layout {
     width: 65%;
-    @media (max-width: 991px) {
+    @media (max-width: 1200px) {
       width: 100%;
     }
   }
   .b-layout {
     width: 35%;
-    @media (max-width: 991px) {
+    @media (max-width: 1200px) {
       width: 100%;
     }
   }

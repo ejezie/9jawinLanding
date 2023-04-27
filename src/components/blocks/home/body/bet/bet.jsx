@@ -7,38 +7,40 @@ import Container from "../../../layout/container/container";
 const Bet = () => {
   return (
     <div className="bet left">
-      <div className="slip">
-        <div className="slip-top">
-          {/* <CategoryTabs menuList={myList} /> */}
-          <div className="space-between slip-tab">
-            <div className=" heading-text center active-slip">Betslip</div>
-            <div className="heading-text active-slip-t">Cashout</div>
-          </div>
-          <div className=" toggle left">
-            <div className="toggle-num center">2</div>
-            <div className="left toggle-bg">
-              <div className="toggle-text-white text">Real</div>
-              <div className="text toggle-text-red">Sim</div>
+      <div className="slip-slide">
+        <div className="slip">
+          <div className="slip-top">
+            {/* <CategoryTabs menuList={myList} /> */}
+            <div className="space-between slip-tab">
+              <div className=" heading-text center active-slip">Betslip</div>
+              <div className="heading-text active-slip-t">Cashout</div>
+            </div>
+            <div className=" toggle left">
+              <div className="toggle-num center">2</div>
+              <div className="left toggle-bg">
+                <div className="toggle-text-white text">Real</div>
+                <div className="text toggle-text-red">Sim</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="slip-bottom">
-          <div
-            className="text"
-            style={{ color: "#989191", fontSize: "16px", textAlign: "left" }}
-          >
-            To place a bet, click on the odds. Or insert a booking code
+          <div className="slip-bottom">
+            <div
+              className="text slip-text"
+              style={{ color: "#989191", fontSize: "16px", textAlign: "left" }}
+            >
+              To place a bet, click on the odds. Or insert a booking code
+            </div>
+            <input />
+            <div className="slip-btn center heading-text">Load</div>
           </div>
-          <input />
-          <div className="slip-btn center heading-text">Load</div>
         </div>
-      </div>
-      <div className="slide center">
-        <img src={bgone} alt="bg" />
-        <div className="indicator left">
-          <div></div>
-          <div></div>
-          <div></div>
+        <div className="slide center">
+          <img src={bgone} alt="bg" />
+          <div className="indicator left">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
       <div className="price">
