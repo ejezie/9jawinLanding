@@ -36,15 +36,15 @@ const Highlights = () => {
           </div>
           <div className="icon-text-highlight-container left">
             <div
-              className="icon-text-highlight left"
+              className="icon-text-highlight left center"
               style={{ marginRight: "28px" }}
             >
               <img src={printIcon} alt="icon" />
-              <span className="text">Print</span>
+              <span className="heading-text">Print</span>
             </div>
-            <div className="icon-text-highlight left">
+            <div className="icon-text-highlight left center">
               <img src={refreshIcon} alt="icon" />
-              <span className="text">Print</span>
+              <span className="heading-text">Refresh</span>
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ const Highlights = () => {
           </div>
           <div className="icon-text-highlight-container left">
             <div
-              className="icon-text-highlight left"
+              className="icon-text-highlight left center"
               style={{ marginRight: "28px" }}
             >
               <img src={printwIcon} alt="icon" />
@@ -124,7 +124,7 @@ const Highlights = () => {
                 Print
               </span>
             </div>
-            <div className="icon-text-highlight left">
+            <div className="icon-text-highlight left center" style={{alignItems: "center"}}>
               <img src={refreshwIcon} alt="icon" />
               <span className="text" style={{ color: "white" }}>
                 Refresh
