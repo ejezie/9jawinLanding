@@ -97,7 +97,7 @@ const Highlights = () => {
                 <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
-                <div className="text">+13</div>
+                <div className="text" style={{color: "white"}}>+13</div>
                 <img src={rightIcon} alt="icon" />
               </div>
             </div>
@@ -212,7 +212,7 @@ const Highlights = () => {
                 <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
-                <div className="text">+13</div>
+                <div className="text" style={{color: "white"}}>+13</div>
                 <img src={rightIcon} alt="icon" />
               </div>
             </div>
@@ -241,7 +241,7 @@ const Highlights = () => {
                 <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
-                <div className="text">+13</div>
+                <div className="text" style={{color: "white"}}>+13</div>
                 <img src={rightIcon} alt="icon" />
               </div>
             </div>
@@ -323,7 +323,7 @@ const Highlights = () => {
                 <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
-                <div className="text">+13</div>
+                <div className="text" style={{color: "white"}}>+13</div>
                 <img src={rightIcon} alt="icon" />
               </div>
             </div>
@@ -352,7 +352,7 @@ const Highlights = () => {
                 <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
-                <div className="text">+13</div>
+                <div className="text" style={{color: "white"}}>+13</div>
                 <img src={rightIcon} alt="icon" />
               </div>
             </div>
@@ -434,7 +434,7 @@ const Highlights = () => {
                 <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
-                <div className="text">+13</div>
+                <div className="text" style={{color: "white"}}>+13</div>
                 <img src={rightIcon} alt="icon" />
               </div>
             </div>
@@ -463,7 +463,7 @@ const Highlights = () => {
                 <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
-                <div className="text">+13</div>
+                <div className="text" style={{color: "white"}}>+13</div>
                 <img src={rightIcon} alt="icon" />
               </div>
             </div>
