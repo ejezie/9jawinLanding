@@ -88,7 +88,7 @@ $white: white;
     .odd-id {
       flex-direction: column;
       margin-right: 22px;
-      padding: 5px 10px;
+      padding-top: 5px 10px;
 
       .fade-comp-text {
         color: #989191;
@@ -266,7 +266,10 @@ $white: white;
     .odd-id {
       flex-direction: column;
       margin-right: 22px;
-      padding: 5px 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 0px;
+      padding-right: 10px;
 
       .fade-comp-text {
         color: white;
@@ -305,7 +308,7 @@ $white: white;
 
   .table-data {
     @extend .date;
-    padding: 10px 0px;
+    padding: 8px 0px;
     transition: all 0.3s linear;
     cursor: pointer;
 

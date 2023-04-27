@@ -188,7 +188,7 @@ const Highlights = () => {
         </div>
         <div className="">
             <div className="left table-data padding" style={{ borderBottom: "none" }}>
-              <img src={graphIcon} alt="icon" className="graph-icon" />
+              {/* <img src={graphIcon} alt="icon" className="graph-icon" /> */}
               <div className="left odd-id">
                 <div className="text comp-text">18:00</div>
                 <div className="text fade-comp-text">HT</div>
@@ -216,7 +216,7 @@ const Highlights = () => {
               </div>
             </div>
             <div className="left table-data padding" >
-              <img src={graphIcon} alt="icon" className="graph-icon" />
+              {/* <img src={graphIcon} alt="icon" className="graph-icon" /> */}
               <div className="left odd-id">
                 <div className="text comp-text">18:00</div>
                 <div className="text fade-comp-text">HT</div>
@@ -297,7 +297,7 @@ const Highlights = () => {
         </div>
         <div className="">
             <div className="left table-data padding" style={{ borderBottom: "none" }}>
-              <img src={graphIcon} alt="icon" className="graph-icon" />
+              {/* <img src={graphIcon} alt="icon" className="graph-icon" /> */}
               <div className="left odd-id">
                 <div className="text comp-text">18:00</div>
                 <div className="text fade-comp-text">HT</div>
@@ -325,7 +325,7 @@ const Highlights = () => {
               </div>
             </div>
             <div className="left table-data padding" >
-              <img src={graphIcon} alt="icon" className="graph-icon" />
+              {/* <img src={graphIcon} alt="icon" className="graph-icon" /> */}
               <div className="left odd-id">
                 <div className="text comp-text">18:00</div>
                 <div className="text fade-comp-text">HT</div>
@@ -406,7 +406,7 @@ const Highlights = () => {
         </div>
         <div className="">
             <div className="left table-data padding" style={{ borderBottom: "none" }}>
-              <img src={graphIcon} alt="icon" className="graph-icon" />
+              {/* <img src={graphIcon} alt="icon" className="graph-icon" /> */}
               <div className="left odd-id">
                 <div className="text comp-text">18:00</div>
                 <div className="text fade-comp-text">HT</div>
@@ -434,7 +434,7 @@ const Highlights = () => {
               </div>
             </div>
             <div className="left table-data padding" style={{ borderBottom: "none" }} >
-              <img src={graphIcon} alt="icon" className="graph-icon" />
+              {/* <img src={graphIcon} alt="icon" className="graph-icon" /> */}
               <div className="left odd-id">
                 <div className="text comp-text">18:00</div>
                 <div className="text fade-comp-text">HT</div>
