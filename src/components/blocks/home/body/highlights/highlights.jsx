@@ -120,13 +120,13 @@ const Highlights = () => {
               style={{ marginRight: "28px" }}
             >
               <img src={printwIcon} alt="icon" />
-              <span className="text" style={{ color: "white" }}>
+              <span className="headingtext" style={{ color: "white" }}>
                 Print
               </span>
             </div>
             <div className="icon-text-highlight left center" style={{alignItems: "center"}}>
               <img src={refreshwIcon} alt="icon" />
-              <span className="text" style={{ color: "white" }}>
+              <span className="heading-text" style={{ color: "white" }}>
                 Refresh
               </span>
             </div>
