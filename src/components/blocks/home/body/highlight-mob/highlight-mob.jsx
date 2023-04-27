@@ -76,7 +76,7 @@ const HighlightMob = () => {
                 </div>
                 <div className="club center" style={{marginBottom: "8px", flexDirection: "column"}}>
                   <img src={arsenalIcon} alt="icon" />
-                  <div style={{color: "#989191"}} className="text">Real Madrid</div>
+                  <div style={{color: "#989191"}} className="text">Arsenal</div>
                 </div>
               </div>
               <div className="space-between">
@@ -181,7 +181,7 @@ const HighlightMob = () => {
                 </div>
                 <div className="club center" style={{marginBottom: "8px", flexDirection: "column"}}>
                   <img src={arsenalIcon} alt="icon" />
-                  <div style={{color: "#989191"}} className="text">Real Madrid</div>
+                  <div style={{color: "#989191"}} className="text">Arsenal</div>
                 </div>
               </div>
               <div className="space-between">
