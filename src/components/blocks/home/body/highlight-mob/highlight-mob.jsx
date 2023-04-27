@@ -784,11 +784,11 @@ const HighlightMob = () => {
                 </span>
               </div>
             </div>
-            <div className="padding-sim">
+            {/* <div className="padding-sim">
               <div className="btn center heading-text">
                 View All Live Events
               </div>
-            </div>
+            </div> */}
           </Container>
         </div>
       </div>
