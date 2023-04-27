@@ -16,7 +16,7 @@ const Bet = () => {
               <div className="heading-text active-slip-t">Cashout</div>
             </div>
             <div className=" toggle left">
-              <div className="toggle-num center">2</div>
+              <div className="toggle-num center text">2</div>
               <div className="left toggle-bg">
                 <div className="toggle-text-white text">Real</div>
                 <div className="text toggle-text-red">Sim</div>
