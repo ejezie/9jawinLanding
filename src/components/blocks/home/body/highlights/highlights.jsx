@@ -209,6 +209,7 @@ const Highlights = () => {
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
+                <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
                 <div className="text">+13</div>
@@ -235,6 +236,7 @@ const Highlights = () => {
                   <span style={{ marginRight: "6px" }}>2</span>
                   <img src={downIcon} alt="icon" />
                 </div>
+                <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
               </div>
@@ -318,6 +320,7 @@ const Highlights = () => {
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
+                <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
                 <div className="text">+13</div>
@@ -344,6 +347,7 @@ const Highlights = () => {
                   <span style={{ marginRight: "6px" }}>2</span>
                   <img src={downIcon} alt="icon" />
                 </div>
+                <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
               </div>
@@ -427,6 +431,7 @@ const Highlights = () => {
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
+                <div className="value-red center">5.70</div>
               </div>
               <div className="left arrow-text">
                 <div className="text">+13</div>
@@ -453,6 +458,7 @@ const Highlights = () => {
                   <span style={{ marginRight: "6px" }}>2</span>
                   <img src={downIcon} alt="icon" />
                 </div>
+                <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
               </div>
