@@ -108,6 +108,7 @@ $white: white;
     .odd-text {
       @extend .odd-id;
       margin-right: 47px;
+      min-width: 100px;
     }
 
     .arrow-text {
@@ -153,8 +154,6 @@ $white: white;
     overflow-x: hidden;
   }
 }
-
-
 
 .highlights-t {
   background-color: $blue;
@@ -285,6 +284,7 @@ $white: white;
     .odd-text {
       @extend .odd-id;
       margin-right: 47px;
+      min-width: 100px;
     }
 
     .arrow-text {

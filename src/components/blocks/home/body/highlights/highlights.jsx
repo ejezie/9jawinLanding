@@ -303,8 +303,8 @@ const Highlights = () => {
                 <div className="text fade-comp-text">HT</div>
               </div>
               <div className="left odd-text">
-                <div className="text comp-text">France</div>
-                <div className="text comp-text">Nigeria</div>
+                <div className="text comp-text">Gabon</div>
+                <div className="text comp-text">Seria leone</div>
               </div>
               <div className="value-wrap left">
                 <div className="value-red center text">1.34</div>
@@ -331,8 +331,8 @@ const Highlights = () => {
                 <div className="text fade-comp-text">HT</div>
               </div>
               <div className="left odd-text">
-                <div className="text comp-text">France</div>
-                <div className="text comp-text">Nigeria</div>
+                <div className="text comp-text">Namibia</div>
+                <div className="text comp-text">Egypt</div>
               </div>
               <div className="value-wrap left">
                 <div className="value-red center text">1.34</div>
