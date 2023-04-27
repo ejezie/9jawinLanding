@@ -89,7 +89,7 @@
         padding: 0px;
       }
 
-      .slip-text{
+      .slip-text {
         @media (max-width: 991px) {
           font-size: 12px !important;
         }
@@ -138,30 +138,51 @@
       }
     }
   }
-  .price {
-    margin-top: 34px;
+  .price-wrap {
     width: 100%;
-    .price-text {
-      color: #4d4545;
-    }
-    .win {
-      width: 100%;
-      padding-top: 24px;
-      padding-bottom: 30px;
-      padding-left: 16px;
-      padding-right: 26px;
-      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url("../../../../../../public/assets/images/bgtwo.png"), #2a384e;
-      border-radius: 0px 0px 60px 0px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      .win-num {
-        text-align: left;
+    @media (max-width: 479px) {
+      display: flex;
+      overflow-x: scroll;
+      &::-webkit-scrollbar {
+        display: none;
       }
-      .win-amount {
-        text-align: left;
-        font-weight: 700;
-        font-size: 20px;
+    }
+    .price {
+      margin-top: 34px;
+      width: 100%;
+      margin-right: 8px;
+      @media (max-width: 479px) {
+        margin-top: 0px;
+      }
+      .price-text {
+        color: #4d4545;
+      }
+
+      .win {
+        width: 100%;
+        padding-top: 24px;
+        padding-bottom: 30px;
+        padding-left: 16px;
+        padding-right: 26px;
+        background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url("../../../../../../public/assets/images/bgtwo.png"), #2a384e;
+        border-radius: 0px 0px 60px 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .win-num {
+          text-align: left;
+        }
+
+        .win-amount {
+          text-align: left;
+          font-weight: 700;
+          font-size: 20px;
+        }
       }
     }
   }

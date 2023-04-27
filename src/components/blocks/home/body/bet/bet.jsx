@@ -43,17 +43,52 @@ const Bet = () => {
           </div>
         </div>
       </div>
-        <div className="price">
-          <div className="price-text sub-heading">Grand Prize Winners</div>
-          <div className="win space-between">
-            <div className="win-text">
-              <div className="win-num text">090**** **** 90 Won</div>
-              <div className="win-amount sub-heading">NGN 450.000.947</div>
-              <div className="win-num text">In sports betting</div>
-            </div>
-            <div className="win-time text">1min ago</div>
+      <div className="price-wrap">
+      <div className="price">
+        <div className="price-text sub-heading">Grand Prize Winners</div>
+        <div className="win space-between">
+          <div className="win-text">
+            <div className="win-num text">090**** **** 90 Won</div>
+            <div className="win-amount sub-heading">NGN 450.000.947</div>
+            <div className="win-num text">In sports betting</div>
           </div>
+          <div className="win-time text">1min ago</div>
         </div>
+      </div>
+      <div className="price">
+        <div className="price-text sub-heading">Grand Prize Winners</div>
+        <div className="win space-between">
+          <div className="win-text">
+            <div className="win-num text">090**** **** 90 Won</div>
+            <div className="win-amount sub-heading">NGN 450.000.947</div>
+            <div className="win-num text">In sports betting</div>
+          </div>
+          <div className="win-time text">1min ago</div>
+        </div>
+      </div>
+      <div className="price">
+        <div className="price-text sub-heading">Grand Prize Winners</div>
+        <div className="win space-between">
+          <div className="win-text">
+            <div className="win-num text">090**** **** 90 Won</div>
+            <div className="win-amount sub-heading">NGN 450.000.947</div>
+            <div className="win-num text">In sports betting</div>
+          </div>
+          <div className="win-time text">1min ago</div>
+        </div>
+      </div>
+      <div className="price">
+        <div className="price-text sub-heading">Grand Prize Winners</div>
+        <div className="win space-between">
+          <div className="win-text">
+            <div className="win-num text">090**** **** 90 Won</div>
+            <div className="win-amount sub-heading">NGN 450.000.947</div>
+            <div className="win-num text">In sports betting</div>
+          </div>
+          <div className="win-time text">1min ago</div>
+        </div>
+      </div>
+      </div>
     </div>
   );
 };
