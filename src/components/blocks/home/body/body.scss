@@ -1,9 +1,10 @@
 @import "../../../base.scss";
 .body {
-  gap: 86px;
+  gap: 66px;
   align-items: flex-start !important;
   @media (max-width: 991px) {
     flex-direction: column;
+    gap: 23px;
   }
   .h-layout {
     width: 65%;
@@ -13,7 +14,6 @@
   }
   .b-layout {
     width: 35%;
-    background-color: antiquewhite;
     @media (max-width: 991px) {
       width: 100%;
     }

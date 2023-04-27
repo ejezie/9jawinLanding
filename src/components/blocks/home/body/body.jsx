@@ -3,18 +3,21 @@ import "./body.scss";
 import Highlights from "./highlights/highlights";
 import HighlightMob from "./highlight-mob/highlight-mob";
 import Container from "../../layout/container/container";
+import Bet from "./bet/bet";
 
 const Body = () => {
   return (
-    <div className="body space-between">
-      <div className="h-layout">
-        <Container>
+    <Container>
+      <div className="body space-between">
+        <div className="h-layout">
           <Highlights />
-        </Container>
-        <HighlightMob />
+          <HighlightMob />
+        </div>
+        <div className="b-layout">
+          <Bet />
+        </div>
       </div>
-      <div className="b-layout">Hello</div>
-    </div>
+    </Container>
   );
 };
 
