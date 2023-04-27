@@ -89,8 +89,12 @@ const HighlightMob = () => {
                     color: "#0A661A",
                   }}
                 >
-                  <span>1</span>
-                  <span>1.34</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">1</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">1.34</span>
                 </div>
                 <div
                   className="space-between"
@@ -101,8 +105,12 @@ const HighlightMob = () => {
                     color: "#0A661A",
                   }}
                 >
-                  <span>X</span>
-                  <span>5.79</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">X</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">5.79</span>
                 </div>
                 <div
                   className="space-between"
@@ -113,8 +121,22 @@ const HighlightMob = () => {
                     color: "#0A661A",
                   }}
                 >
-                  <span>2</span>
-                  <span>5.79</span>
+                  <span
+                    style={{
+                      color: "#0A661A",
+                    }}
+                    className="text"
+                  >
+                    2
+                  </span>
+                  <span
+                    style={{
+                      color: "#0A661A",
+                    }}
+                    className="text"
+                  >
+                    5.79
+                  </span>
                 </div>
               </div>
             </div>
@@ -144,7 +166,7 @@ const HighlightMob = () => {
               <div className="club-fixture-odd space-between">
                 <div className="club">
                   <img src={madridIcon} alt="icon" />
-                  <div className="text">Real Madrid</div>
+                  <div style={{color: ""}} className="text">Real Madrid</div>
                 </div>
                 <div className="club-odd-text">
                   <div className="text" style={{ color: "#313131" }}>
@@ -172,8 +194,12 @@ const HighlightMob = () => {
                     color: "#0A661A",
                   }}
                 >
-                  <span>1</span>
-                  <span>1.34</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">1</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">1.34</span>
                 </div>
                 <div
                   className="space-between"
@@ -184,8 +210,12 @@ const HighlightMob = () => {
                     color: "#0A661A",
                   }}
                 >
-                  <span>X</span>
-                  <span>5.79</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">X</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">5.79</span>
                 </div>
                 <div
                   className="space-between"
@@ -196,8 +226,12 @@ const HighlightMob = () => {
                     color: "#0A661A",
                   }}
                 >
-                  <span>2</span>
-                  <span>5.79</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">2</span>
+                  <span style={{
+                    color: "#0A661A",
+                  }}className="text">5.79</span>
                 </div>
               </div>
             </div>
@@ -208,9 +242,13 @@ const HighlightMob = () => {
             <div className="live-wrap left">
               <div className="live-tabs-top left">
                 <img src={fireIcon} alt="icon" style={{ marginRight: "4px" }} />
-                <div style={{ color: "white" }} className="heading-text">Live</div>
+                <div style={{ color: "white" }} className="heading-text">
+                  Live
+                </div>
               </div>
-              <div className="line-v" style={{color: "white"}}>.</div>
+              <div className="line-v" style={{ color: "white" }}>
+                .
+              </div>
               <div className="text-live heading-text ">Football</div>
               <div className="text-live heading-text ">Basketball</div>
               <div className="text-live heading-text ">Tennis</div>
@@ -402,9 +440,13 @@ const HighlightMob = () => {
             <div className="live-wrap left">
               <div className="live-tabs-top left">
                 <img src={fireIcon} alt="icon" style={{ marginRight: "4px" }} />
-                <div style={{ color: "white" }} className="heading-text">Live</div>
+                <div style={{ color: "white" }} className="heading-text">
+                  Live
+                </div>
               </div>
-              <div className="line-v" style={{color: "white"}}>.</div>
+              <div className="line-v" style={{ color: "white" }}>
+                .
+              </div>
               <div className="text-live heading-text ">Football</div>
               <div className="text-live heading-text ">Basketball</div>
               <div className="text-live heading-text ">Tennis</div>
@@ -467,7 +509,7 @@ const HighlightMob = () => {
                 <div className="value-wrap-sim left">
                   <div className="value-red-up center text">
                     <span>1.34</span>
-                    <img src={upIcon} alt="icon"/>
+                    <img src={upIcon} alt="icon" />
                   </div>
                   <div className="value-red center text">5.70</div>
                   <div className="value-red center text">1.34</div>
