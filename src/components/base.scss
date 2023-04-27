@@ -26,6 +26,12 @@ $red: #d23d2b;
   justify-content: space-between;
 }
 
+.space-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .space-between-bottom {
   display: flex;
   align-items: flex-end;
@@ -54,7 +60,7 @@ $red: #d23d2b;
 
 .text {
   color: white;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   text-align: center;

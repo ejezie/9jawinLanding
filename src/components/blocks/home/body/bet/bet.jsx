@@ -1,11 +1,7 @@
 import React from "react";
 import "./bet.scss";
 import CategoryTabs from "../../../layout/header/category-tabs/category-tab";
-
-const myList = [
-  { name: "Home", icon: null },
-  { name: "Football", icon: null },
-];
+import { bgone } from "../../../../../assets/images";
 
 const Bet = () => {
   return (
@@ -26,11 +22,33 @@ const Bet = () => {
           </div>
         </div>
         <div className="slip-bottom">
-            <div className="text" style={{color: "#989191", fontSize: "16px", textAlign: "left"}}>
-                To place a bet, click on the odds. Or insert a booking code
-            </div>
-            <input/>
-            <div className="slip-btn center heading-text">Load</div>
+          <div
+            className="text"
+            style={{ color: "#989191", fontSize: "16px", textAlign: "left" }}
+          >
+            To place a bet, click on the odds. Or insert a booking code
+          </div>
+          <input />
+          <div className="slip-btn center heading-text">Load</div>
+        </div>
+      </div>
+      <div className="slide center">
+        <img src={bgone} alt="bg" />
+        <div className="indicator left">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div className="price">
+        <div className="price-text sub-heading">Grand Prize Winners</div>
+        <div className="win space-between">
+          <div className="win-text">
+            <div className="win-num text">090**** **** 90 Won</div>
+            <div className="win-amount sub-heading">NGN 450.000.947</div>
+            <div className="win-num text">In sports betting</div>
+          </div>
+          <div className="win-time text">1min ago</div>
         </div>
       </div>
     </div>
