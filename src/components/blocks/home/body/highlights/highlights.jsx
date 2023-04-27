@@ -32,7 +32,7 @@ const Highlights = () => {
         <div className="highlight-text-container space-between padding">
           <div className="highlight-text left">
             <div className="red"></div>
-            <div className="sub-heading highlight-text-sub">Highlights</div>
+            <div className="sub-heading highlight-text-sub" >Highlights</div>
           </div>
           <div className="icon-text-highlight-container left">
             <div
@@ -49,7 +49,7 @@ const Highlights = () => {
           </div>
         </div>
         <div className="padding">
-          <CategoryTabs menuList={menuList} gap="80px" textColor="#2A384E" />
+          <CategoryTabs menuList={menuList} gap="80px" textColor="#000000" />
         </div>
         <div className="left comp-card-wrap padding">
           <CompetitionCard textOne={"UEFA"} textTwo={"UEFA Champions League"} />
