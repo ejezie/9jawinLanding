@@ -3,7 +3,7 @@ import "./category-tabs.scss";
 import { IconTextHome } from "../../../../premitives/icon-text/icon-text";
 import Container from "../../container/container";
 
-const CategoryTabs = ({ gap = "30px", menuList = [], textColor = "" }) => {
+const CategoryTabs = ({ gap = "30px", menuList = [], textColor = "", headerTab=false }) => {
   const [activeTab, setActiveTab] = React.useState("Home");
 
   return (
@@ -24,6 +24,7 @@ const CategoryTabs = ({ gap = "30px", menuList = [], textColor = "" }) => {
               iconHeight="8px"
               iconWidth="14px"
               textColor={textColor}
+              headerTab
             />
           ))}
         </div>

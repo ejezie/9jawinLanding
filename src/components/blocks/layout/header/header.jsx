@@ -49,7 +49,7 @@ const Header = () => {
       <TabsHeader />
       <div className="tabs-categ">
       <Container>
-        <CategoryHeader menuList={menuList} />
+        <CategoryHeader menuList={menuList} textColor="#989191" />
       </Container>
       </div>
     </>

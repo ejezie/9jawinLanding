@@ -210,34 +210,34 @@ const HighlightMob = () => {
                 <img src={fireIcon} alt="icon" style={{ marginRight: "4px" }} />
                 <div style={{ color: "white" }}>Live</div>
               </div>
-              <div className="line-v">.</div>
-              <div className="text-live header-text ">Football</div>
-              <div className="text-live header-text ">Basketball</div>
-              <div className="text-live header-text ">Tennis</div>
-              <div className="text-live header-text ">Table Tennis</div>
-              <div className="text-live header-text ">American Football</div>
-              <div className="text-live header-text ">Volleyball</div>
-              <div className="text-live header-text ">Beachball</div>
-              <div className="text-live header-text ">Handball</div>
-              <div className="text-live header-text ">Baseball</div>
-              <div className="text-live header-text ">More Sports</div>
+              <div className="line-v" style={{color: "white"}}>.</div>
+              <div className="text-live heading-text ">Football</div>
+              <div className="text-live heading-text ">Basketball</div>
+              <div className="text-live heading-text ">Tennis</div>
+              <div className="text-live heading-text ">Table Tennis</div>
+              <div className="text-live heading-text ">American Football</div>
+              <div className="text-live heading-text ">Volleyball</div>
+              <div className="text-live heading-text ">Beachball</div>
+              <div className="text-live heading-text ">Handball</div>
+              <div className="text-live heading-text ">Baseball</div>
+              <div className="text-live heading-text ">More Sports</div>
             </div>
           </Container>
         </div>
         <div className="x">
           <Container>
             <div className="x-wrap left">
-              <div className="text-live center active-x">1X2</div>
+              <div className="text-live center active-x heading-text">1X2</div>
               <div className="line-v"></div>
-              <div className="text-live header-text ">Over/Under</div>
-              <div className="text-live header-text ">Next Goal</div>
-              <div className="text-live header-text "> Double Chance</div>
-              <div className="text-live header-text ">Over/Under</div>
-              <div className="text-live header-text ">Volleyball</div>
-              <div className="text-live header-text ">Beachball</div>
-              <div className="text-live header-text ">Handball</div>
-              <div className="text-live header-text ">Baseball</div>
-              <div className="text-live header-text ">More Sports</div>
+              <div className="text-live heading-text ">Over/Under</div>
+              <div className="text-live heading-text ">Next Goal</div>
+              <div className="text-live heading-text "> Double Chance</div>
+              <div className="text-live heading-text ">Over/Under</div>
+              <div className="text-live heading-text ">Volleyball</div>
+              <div className="text-live heading-text ">Beachball</div>
+              <div className="text-live heading-text ">Handball</div>
+              <div className="text-live heading-text ">Baseball</div>
+              <div className="text-live heading-text ">More Sports</div>
             </div>
           </Container>
         </div>
@@ -402,36 +402,36 @@ const HighlightMob = () => {
             <div className="live-wrap left">
               <div className="live-tabs-top left">
                 <img src={fireIcon} alt="icon" style={{ marginRight: "4px" }} />
-                <div style={{ color: "white" }}>Live</div>
+                <div style={{ color: "white" }} className="heading-text">Live</div>
               </div>
-              <div className="line-v">.</div>
-              <div className="text-live header-text ">Football</div>
-              <div className="text-live header-text ">Basketball</div>
-              <div className="text-live header-text ">Tennis</div>
-              <div className="text-live header-text ">Table Tennis</div>
-              <div className="text-live header-text ">American Football</div>
-              <div className="text-live header-text ">Volleyball</div>
-              <div className="text-live header-text ">Beachball</div>
-              <div className="text-live header-text ">Handball</div>
-              <div className="text-live header-text ">Baseball</div>
-              <div className="text-live header-text ">More Sports</div>
+              <div className="line-v" style={{color: "white"}}>.</div>
+              <div className="text-live heading-text ">Football</div>
+              <div className="text-live heading-text ">Basketball</div>
+              <div className="text-live heading-text ">Tennis</div>
+              <div className="text-live heading-text ">Table Tennis</div>
+              <div className="text-live heading-text ">American Football</div>
+              <div className="text-live heading-text ">Volleyball</div>
+              <div className="text-live heading-text ">Beachball</div>
+              <div className="text-live heading-text ">Handball</div>
+              <div className="text-live heading-text ">Baseball</div>
+              <div className="text-live heading-text ">More Sports</div>
             </div>
           </Container>
         </div>
         <div className="x">
           <Container>
             <div className="x-wrap left">
-              <div className="text-live center active-x">1X2</div>
+              <div className="text-live center active-x heading-text">1X2</div>
               <div className="line-v"></div>
-              <div className="text-live header-text ">Over/Under</div>
-              <div className="text-live header-text ">Next Goal</div>
-              <div className="text-live header-text "> Double Chance</div>
-              <div className="text-live header-text ">Over/Under</div>
-              <div className="text-live header-text ">Volleyball</div>
-              <div className="text-live header-text ">Beachball</div>
-              <div className="text-live header-text ">Handball</div>
-              <div className="text-live header-text ">Baseball</div>
-              <div className="text-live header-text ">More Sports</div>
+              <div className="text-live heading-text ">Over/Under</div>
+              <div className="text-live heading-text ">Next Goal</div>
+              <div className="text-live heading-text "> Double Chance</div>
+              <div className="text-live heading-text ">Over/Under</div>
+              <div className="text-live heading-text ">Volleyball</div>
+              <div className="text-live heading-text ">Beachball</div>
+              <div className="text-live heading-text ">Handball</div>
+              <div className="text-live heading-text ">Baseball</div>
+              <div className="text-live heading-text ">More Sports</div>
             </div>
           </Container>
         </div>
