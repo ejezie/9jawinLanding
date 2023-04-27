@@ -208,7 +208,7 @@ const HighlightMob = () => {
             <div className="live-wrap left">
               <div className="live-tabs-top left">
                 <img src={fireIcon} alt="icon" style={{ marginRight: "4px" }} />
-                <div style={{ color: "white" }}>Live</div>
+                <div style={{ color: "white" }} className="heading-text">Live</div>
               </div>
               <div className="line-v" style={{color: "white"}}>.</div>
               <div className="text-live heading-text ">Football</div>

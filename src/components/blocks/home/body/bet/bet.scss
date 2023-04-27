@@ -2,6 +2,11 @@
 .bet {
   margin-top: 30px;
   flex-direction: column;
+  @media (max-width: 479px) {
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-top: 0px;
+  }
   .slip-slide {
     width: 100%;
     @media (max-width: 1200px) {
@@ -140,24 +145,34 @@
   }
   .price-wrap {
     width: 100%;
+    flex-direction: column;
+    margin-top: 34px;
     @media (max-width: 479px) {
-      display: flex;
-      overflow-x: scroll;
-      &::-webkit-scrollbar {
-        display: none;
+        margin-top: 0px;
+      }
+    .price-text {
+      color: #4d4545;
+      margin-bottom: 20px;
+      @media (max-width: 479px) {
+        padding-left: 25px;
+      }
+    }
+    .price-col {
+      width: 100%;
+      @media (max-width: 479px) {
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 0px;
+        &::-webkit-scrollbar {
+          display: none;
+        }
       }
     }
     .price {
-      margin-top: 34px;
       width: 100%;
       margin-right: 8px;
-      @media (max-width: 479px) {
-        margin-top: 0px;
-      }
-      .price-text {
-        color: #4d4545;
-      }
-
+      min-width: 186px;
+      margin-bottom: 6px;
       .win {
         width: 100%;
         padding-top: 24px;
@@ -177,7 +192,11 @@
         .win-num {
           text-align: left;
         }
-
+        .win-time {
+          @media (max-width: 479px) {
+            display: none;
+          }
+        }
         .win-amount {
           text-align: left;
           font-weight: 700;

@@ -303,9 +303,13 @@ $reddrk: #81180b;
   margin-top: 16px;
   display: none;
   flex-direction: column;
+  margin-left: -110px;
+  margin-right: -110px;
 
   @media (max-width: 991px) {
     display: flex;
+    margin-left: -25px;
+    margin-right: -25px;
   }
 
   .comp-card-wrap-h {
