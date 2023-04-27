@@ -33,3 +33,11 @@
     display: block;
   }
 }
+
+.tabs-categ {
+  background-color: white;
+  @media (max-width: 991px) {
+    background-color: $blue;
+    border-top: white solid 2px;
+  }
+}

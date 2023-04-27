@@ -47,9 +47,11 @@ const Header = () => {
       </div>
       <img src={himage} alt="heroImage" className="himage" />
       <TabsHeader />
+      <div className="tabs-categ">
       <Container>
         <CategoryHeader menuList={menuList} />
       </Container>
+      </div>
     </>
   );
 };
