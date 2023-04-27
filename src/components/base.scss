@@ -29,7 +29,11 @@ $red: #d23d2b;
 .space-around {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.column{
+  flex-direction: column;
 }
 
 .space-between-bottom {
