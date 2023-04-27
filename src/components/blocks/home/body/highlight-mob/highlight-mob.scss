@@ -241,6 +241,7 @@ $reddrk: #81180b;
   .sim {
     background-color: $blue;
     padding: 22px 0px;
+    
   }
   .sim-bg {
     background-color: white;
@@ -580,6 +581,9 @@ $reddrk: #81180b;
   .sim {
     background-color: #fafafa;
     padding: 22px 0px;
+    @media (max-width: 479px) {
+    padding: 0px 0px;
+    }
   }
 
   .sim-bg {
