@@ -79,6 +79,7 @@
   .slide {
     flex-direction: column;
     margin-top: 115px;
+    border-radius: 10px 10px 0px 0px;
     .indicator {
       padding-top: 14px;
       div {
@@ -97,11 +98,13 @@
       color: #4d4545;
     }
     .win {
-      width: 100%;
+      width: 95%;
       padding-top: 24px;
       padding-bottom: 30px;
       padding-left: 16px;
-      background-image: url("../../../../../../public/assets/images/bgtwo.png");
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url("../../../../../../public/assets/images/bgtwo.png"), #2a384e;
+      border-radius: 0px 0px 60px 0px;
       background-repeat: no-repeat;
       .win-num {
         text-align: left;

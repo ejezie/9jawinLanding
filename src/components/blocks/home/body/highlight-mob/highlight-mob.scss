@@ -1,13 +1,17 @@
 @import "../../../../base.scss";
 $white: white;
-$reddrk: #81180B;
+$reddrk: #81180b;
 .highlight-mob {
   margin-bottom: 10px;
   margin-top: 16px;
   display: none;
   flex-direction: column;
+  margin-left: -110px;
+  margin-right: -110px;
   @media (max-width: 991px) {
     display: flex;
+    margin-left: -25px;
+    margin-right: -25px;
   }
   .comp-card-wrap-h {
     padding-top: 18px;
@@ -459,7 +463,7 @@ $reddrk: #81180B;
   }
 
   .onextwo {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     padding-top: 21px;
     padding-bottom: 14px;
     padding-left: 25px;
@@ -513,11 +517,11 @@ $reddrk: #81180B;
         color: white;
         font-weight: 600;
         position: relative;
-        img{
-            position: absolute;
-            right: 3px;
-            top: 2px;
-            object-fit: cover
+        img {
+          position: absolute;
+          right: 3px;
+          top: 2px;
+          object-fit: cover;
         }
       }
 
@@ -570,7 +574,7 @@ $reddrk: #81180B;
   }
 
   .sim {
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     padding: 22px 0px;
   }
 

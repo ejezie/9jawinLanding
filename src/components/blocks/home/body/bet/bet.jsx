@@ -2,6 +2,7 @@ import React from "react";
 import "./bet.scss";
 import CategoryTabs from "../../../layout/header/category-tabs/category-tab";
 import { bgone } from "../../../../../assets/images";
+import Container from "../../../layout/container/container";
 
 const Bet = () => {
   return (
