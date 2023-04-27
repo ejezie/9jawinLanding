@@ -9,6 +9,7 @@ export const searchIcon = `${IMAGE_PATH}/search.svg`
 export const himage = `${IMAGE_PATH}/himage.png`
 export const pokerIcon = `${IMAGE_PATH}/icon-park_poker.svg`
 export const downIcon = `${IMAGE_PATH}/down.svg`
+export const downwIcon = `${IMAGE_PATH}/downw.svg`
 export const rightIcon = `${IMAGE_PATH}/right.svg`
 export const graphIcon = `${IMAGE_PATH}/graph.svg`
 export const madridIcon = `${IMAGE_PATH}/madrid.png`

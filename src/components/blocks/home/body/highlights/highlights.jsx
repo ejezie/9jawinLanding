@@ -4,7 +4,7 @@ import Container from "../../../layout/container/container";
 import {
   printIcon,
   refreshIcon,
-  downIcon,
+  downwIcon,
   graphIcon,
   rightIcon,
   fireIcon,
@@ -22,7 +22,7 @@ const menuList = [
   { name: "Tennis", icon: null },
   { name: "Football", icon: null },
   { name: "Football", icon: null },
-  { name: "More Sports", icon: downIcon },
+  { name: "More Sports", icon: downwIcon },
 ];
 
 const Highlights = () => {
@@ -91,7 +91,7 @@ const Highlights = () => {
               <div className="value-wrap left" style={{ marginRight: "60px" }}>
                 <div className="value-red center">
                   <span style={{ marginRight: "6px" }}>2</span>
-                  <img src={downIcon} alt="icon" />
+                  <img src={downwIcon} alt="icon" />
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
@@ -205,7 +205,7 @@ const Highlights = () => {
               <div className="value-wrap left" style={{ marginRight: "60px" }}>
                 <div className="value-red center">
                   <span style={{ marginRight: "6px" }}>2</span>
-                  <img src={downIcon} alt="icon" />
+                  <img src={downwIcon} alt="icon" />
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
@@ -234,7 +234,7 @@ const Highlights = () => {
               <div className="value-wrap left" style={{ marginRight: "60px" }}>
                 <div className="value-red center">
                   <span style={{ marginRight: "6px" }}>2</span>
-                  <img src={downIcon} alt="icon" />
+                  <img src={downwIcon} alt="icon" />
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
@@ -316,7 +316,7 @@ const Highlights = () => {
               <div className="value-wrap left" style={{ marginRight: "60px" }}>
                 <div className="value-red center">
                   <span style={{ marginRight: "6px" }}>2</span>
-                  <img src={downIcon} alt="icon" />
+                  <img src={downwIcon} alt="icon" />
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
@@ -345,7 +345,7 @@ const Highlights = () => {
               <div className="value-wrap left" style={{ marginRight: "60px" }}>
                 <div className="value-red center">
                   <span style={{ marginRight: "6px" }}>2</span>
-                  <img src={downIcon} alt="icon" />
+                  <img src={downwIcon} alt="icon" />
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
@@ -427,7 +427,7 @@ const Highlights = () => {
               <div className="value-wrap left" style={{ marginRight: "60px" }}>
                 <div className="value-red center">
                   <span style={{ marginRight: "6px" }}>2</span>
-                  <img src={downIcon} alt="icon" />
+                  <img src={downwIcon} alt="icon" />
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
@@ -456,7 +456,7 @@ const Highlights = () => {
               <div className="value-wrap left" style={{ marginRight: "60px" }}>
                 <div className="value-red center">
                   <span style={{ marginRight: "6px" }}>2</span>
-                  <img src={downIcon} alt="icon" />
+                  <img src={downwIcon} alt="icon" />
                 </div>
                 <div className="value-red center">5.70</div>
                 <div className="value-red center">5.70</div>
